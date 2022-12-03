@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1670041071 source:/home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula3Exercicio2/RetaXY.cpp
+	"RetaXY.hpp"
+
+1670041663 /home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula3Exercicio2/RetaXY.hpp
+	<iostream>
+	<string>
+	<iomanip>
+
+1670041237 source:/home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula3Exercicio2/main.cpp
+	"RetaXY.hpp"
+

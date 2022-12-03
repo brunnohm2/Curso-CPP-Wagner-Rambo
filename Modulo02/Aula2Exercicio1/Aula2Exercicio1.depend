@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1669966227 source:/home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula2Exercicio1/main.cpp
+	"Calculadora.hpp"
+
+1669966865 source:/home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula2Exercicio1/Calculadora.cpp
+	"Calculadora.hpp"
+
+1669967124 /home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula2Exercicio1/Calculadora.hpp
+	<iostream>
+	<string>
+

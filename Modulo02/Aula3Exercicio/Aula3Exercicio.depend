@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1670039547 source:/home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula3Exercicio/JurosCompostos.cpp
+	"JurosCompostos.hpp"
+
+1670039346 /home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula3Exercicio/JurosCompostos.hpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cmath>
+
+1670039216 source:/home/brunnohm/Documentos/GitHub/Curso_C++_Wagner_Rambo/Modulo02/Aula3Exercicio/main.cpp
+	"JurosCompostos.hpp"
+
