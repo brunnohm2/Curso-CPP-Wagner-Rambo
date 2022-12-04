@@ -34,7 +34,7 @@ class SalesScore{
         SalesScore(string);         // Funcao-membro construtora que obtem o nome da loja
         void setStoreTitle(string); // Funcao-membro que configura o nome da loja
         string getStoreTitle();     // Funcao membro que obtem o nome da loja
-        void bootSystem();    // Funcao-membro para inicializacao que retorna [Score de vendas! e nome da loja]
+        void bootSystem();          // Funcao-membro para inicializacao que retorna [Score de vendas! e nome da loja]
         void calcSalesAverage();    // Funcao-membro pra calcular o total e a media de n vendas
 
     private: // Private e um especificador de acesso onde o usuario final nao usa diretamente os dados

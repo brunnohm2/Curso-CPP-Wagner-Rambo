@@ -54,7 +54,7 @@ void SalesScore::calcSalesAverage(){          // Funcao-membro pra calcular o to
     if(counter!=0){
         avg=static_cast<double>(acc)/counter; // Calcula a media
         cout<<"\nTotal "<<counter<<" vendas "<<acc<<endl;
-        cout<<"Media em vendas: "<<setprecision(2) <<fixed<<avg<<endl;
+        cout<<"Media em vendas: "<<setprecision(2)<<fixed<<avg<<endl;
 
     } // End if
     else cout<<"Nenhum valor de venda foi inserido";
