@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1670131237 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo02/Aula5/main.cpp
+	"SalesScore.hpp"
+
+1670131865 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo02/Aula5/SalesScore.hpp
+	<iostream>
+	<string>
+	<iomanip>
+
+1670131509 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo02/Aula5/SalasScore.cpp
+	"SalesScore.hpp"
+

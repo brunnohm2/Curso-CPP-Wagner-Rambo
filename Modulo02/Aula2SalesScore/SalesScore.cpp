@@ -59,19 +59,3 @@ void SalesScore::calcSalesAverage(){          // Funcao-membro pra calcular o to
     } // End if
     else cout<<"Nenhum valor de venda foi inserido";
 } // End calcSalesAverage
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
