@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1670391444 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo03/Aula4/main.cpp
+	<iostream>
+	<iomanip>
+
