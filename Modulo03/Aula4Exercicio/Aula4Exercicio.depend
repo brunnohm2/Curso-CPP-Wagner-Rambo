@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1670602190 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo03/Aula4Exercicio/Decrescente.cpp
+	"Decrescente.hpp"
+
+1670602415 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo03/Aula4Exercicio/Decrescente.hpp
+	<iostream>
+	<iomanip>
+
+1670602276 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo03/Aula4Exercicio/main.cpp
+	"Decrescente.hpp"
+

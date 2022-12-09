@@ -8,11 +8,11 @@
 // IDE Code::Blocks
 // Arquivo SalesScore.cpp que contem as implementacoes da funcao-membro
 
-//=========================================================
-//--------Desenvolvimento das Funcoes-membro--------
+//==========================================================
+//------------Desenvolvimento das Funcoes-membro------------
 #include "SalesScore.hpp"
 
-SalesScore::SalesScore(string title, const int salesArray[]){           // Funcao-membro construtora que obtem o nome da loja
+SalesScore::SalesScore(string title, const int salesArray[]){   // Funcao-membro construtora que obtem o nome da loja
     setStoreTitle(title);
 
     prodA=0;
@@ -22,8 +22,7 @@ SalesScore::SalesScore(string title, const int salesArray[]){           // Funca
     for(int i=0;i<products;i++) sales[i]=salesArray[i];
 
 } // End SalesStore
-//=========================================================
-void SalesScore::setStoreTitle(string title){   //Funcao-membro que configura o nome da loja
+void    SalesScore::setStoreTitle(string title){                // Funcao-membro que configura o nome da loja
     if(title.length()<=20) storeTitle=title;  //Se title for menor ou igual a 20 caracteres, storeTitle recebe o valor
 
     if(title.length()>20){
@@ -31,16 +30,13 @@ void SalesScore::setStoreTitle(string title){   //Funcao-membro que configura o 
         cout<<"O Titulo "<<title<<" excedeu a largura maxima!"<<endl;
     }
 }// End setStoreTitle
-//=========================================================
-string SalesScore::getStoreTitle(){             //Funcao membro que obtem o nome da loja
+string  SalesScore::getStoreTitle(){                            // Funcao membro que obtem o nome da loja
     return storeTitle;
 }// End getStoreTitle
-//=========================================================
-void SalesScore::bootSystem(){                  //Funcao-membro para inicializacao que retorna [Score de vendas! e nome da loja]
+void    SalesScore::bootSystem(){                               // Funcao-membro para inicializacao que retorna [Score de vendas! e nome da loja]
     cout<<"Score de vendas! "<<getStoreTitle()<<endl;
 }// End bootSystem
-//=========================================================
-void SalesScore::calcSalesAverage(){            // Funcao-membro pra calcular o total e a media de n vendas
+void    SalesScore::calcSalesAverage(){                         // Funcao-membro pra calcular o total e a media de n vendas
     int acc     =0; // Acumula valores inseridos pelo usuario
     int counter =0; // Numero de vendas inserido pelo usuario
     int value;      // Armazena o valor de cada venda
@@ -66,8 +62,7 @@ void SalesScore::calcSalesAverage(){            // Funcao-membro pra calcular o 
     } // End if
     else cout<<"Nenhum valor de venda foi inserido";
 } // End calcSalesAverage
-//=========================================================
-void SalesScore::enterProducts(){               // Funcao-membro para inserir o tipo de produto vendido
+void    SalesScore::enterProducts(){                            // Funcao-membro para inserir o tipo de produto vendido
     int product;
 
     cout<<"Insira o produto vendido: "<<endl
@@ -101,16 +96,14 @@ void SalesScore::enterProducts(){               // Funcao-membro para inserir o 
     } // End while
 
 } // End enterProducts
-//=========================================================
-void SalesScore::productsReport(){              // Funcao-membro para imprimir o relatorio da quantidade de produtos vendido
+void    SalesScore::productsReport(){                           // Funcao-membro para imprimir o relatorio da quantidade de produtos vendido
     cout<<"\n============================"
         <<"\nProduto A:"<<setw(15)<<prodA
         <<"\nProduto B:"<<setw(15)<<prodB
         <<"\nProduto C:"<<setw(15)<<prodC
         <<endl;
 } // End productsReport
-//=========================================================
-void SalesScore::processSales(){                // Funcao-membro Processa operacoes com os dados
+void    SalesScore::processSales(){                             // Funcao-membro Processa operacoes com os dados
     // Apresenta os resultados
     dispSales();
 
@@ -126,14 +119,14 @@ void SalesScore::processSales(){                // Funcao-membro Processa operac
     genGraph();
 
 } // End processSales()
-void SalesScore::dispSales(){                   // Funcao-membro Apresenta resultados
+void    SalesScore::dispSales(){                                // Funcao-membro Apresenta resultados
     cout<<"Relatorio de vendas"<<endl;
 
     for(int i=0;i<products;i++)
         cout<<"\nProduto "<<setw(2)<<i+1<<":"
             <<setw(3)<<sales[i];
 } // End dispSales()
-int SalesScore::getMin(){                       // Funcao-membro Localiza o valor minimo
+int     SalesScore::getMin(){                                   // Funcao-membro Localiza o valor minimo
     int min_val=1000;
 
     for(int i=0;i<products;i++)
@@ -141,7 +134,7 @@ int SalesScore::getMin(){                       // Funcao-membro Localiza o valo
 
     return min_val;
 } // End getMin()
-int SalesScore::getMax(){                       // Funcao-membro Localiza o valor maximo
+int     SalesScore::getMax(){                                   // Funcao-membro Localiza o valor maximo
     int max_val=0;
 
     for(int i=0;i<products;i++)
@@ -149,7 +142,7 @@ int SalesScore::getMax(){                       // Funcao-membro Localiza o valo
 
     return max_val;
 } // End getMax()
-double SalesScore::getAvg(){                    // Funcao-membro Determina a media de vendas
+double  SalesScore::getAvg(){                                   // Funcao-membro Determina a media de vendas
     int acc=0;
 
     for(int i=0;i<products;i++)
@@ -157,7 +150,7 @@ double SalesScore::getAvg(){                    // Funcao-membro Determina a med
 
     return static_cast<double>(acc)/products;
 } // End getAvg()
-void SalesScore::genGraph(){                    // Funcao-membro Grafico de barras para distribuicao de vendas
+void    SalesScore::genGraph(){                                 // Funcao-membro Grafico de barras para distribuicao de vendas
     cout << "\nGrafico: \n" << endl;
 
     //armazena a ocorrência em vendas em cada intervalo
@@ -183,9 +176,3 @@ void SalesScore::genGraph(){                    // Funcao-membro Grafico de barr
         cout << endl;
     }
 } // End genGraph()
-
-
-
-
-
-
