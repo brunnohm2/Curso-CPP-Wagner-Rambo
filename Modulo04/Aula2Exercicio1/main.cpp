@@ -6,9 +6,8 @@ int main(){
     int *ponteiro1 = array1;
     int *ponteiro2 = array2;
 
-
     ponteiro2 = ponteiro1;
 
     for(int i=0; i<tamanho_array; i++)
-        array2[i]=*ponteiro2+i;
+        array2[i]=*(ponteiro2+i);
 }
