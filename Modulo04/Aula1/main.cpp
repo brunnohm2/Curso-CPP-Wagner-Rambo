@@ -10,13 +10,12 @@
 
 // Experimente criar um código que utilize um ponteiro para double e imprima na tela o
 // endereço do ponteiro, o endereço da variável para qual o ponteiro aponta e o conteúdo da variável
-//através do ponteiro declarado.
+// através do ponteiro declarado.
 
 #include <iostream>         // Biblioteca padrao de entrada e saida de dados
     using std::endl;        // Linha nova
     using std::cout;        // Saida de dados
     using std::cin;         // Entrada de dados
-    using std::fixed;       // Garante que as casas depois da virgula sejam exibidas
 
 #include <cmath>            // Biblioteca Funcoes gerais para calculos matematicos
 
