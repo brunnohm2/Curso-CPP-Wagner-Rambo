@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1671161039 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula5Exercicio/main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<cmath>
+	<cstdlib>
+	<ctime>
+

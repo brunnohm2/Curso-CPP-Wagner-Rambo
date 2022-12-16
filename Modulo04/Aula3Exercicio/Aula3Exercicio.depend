@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1670984469 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula3Exercicio/menuSistema.cpp
+	"menuSistema.hpp"
+
+1671012081 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula3Exercicio/menuSistema.hpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cmath>
+	<cstdlib>
+	<ctime>
+
+1671092353 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula3Exercicio/main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cmath>
+	<cstdlib>
+	<ctime>
+

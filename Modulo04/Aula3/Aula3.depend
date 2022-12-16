@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1670913377 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula3/main.cpp
+	"cartas.hpp"
+
+1670913377 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula3/cartas.cpp
+	"cartas.hpp"
+
+1670913377 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula3/cartas.hpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+
