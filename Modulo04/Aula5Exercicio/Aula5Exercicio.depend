@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1671161039 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula5Exercicio/main.cpp
+1671292171 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula5Exercicio/main.cpp
+	"Token.hpp"
+
+1671293610 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula5Exercicio/Token.cpp
+	"Token.hpp"
+
+1671293793 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo04/Aula5Exercicio/Token.hpp
 	<iostream>
 	<string>
 	<cstring>
-	<iomanip>
-	<cmath>
-	<cstdlib>
-	<ctime>
 
