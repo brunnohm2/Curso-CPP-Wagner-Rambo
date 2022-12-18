@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1671331536 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula1/main.cpp
+	"PrintVal.hpp"
+
+1671346996 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula1/PrintVal.hpp
+	<iostream>
+
+1671346996 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula1/PrintVal.cpp
+	"PrintVal.hpp"
+	"PrintVal.hpp"
+
