@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1671448594 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2Exercicio/Memory.cpp
+	"Memory.hpp"
+
+1671448433 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2Exercicio/main.cpp
+	"Memory.hpp"
+
+1671533611 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2Exercicio/Memory.hpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+

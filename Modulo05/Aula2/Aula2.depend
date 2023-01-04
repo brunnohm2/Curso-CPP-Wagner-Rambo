@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1671379053 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2/main.cpp
+	"Destrutor.hpp"
+
+1671378488 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2/Destrutor.hpp
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<cmath>
+	<cstdlib>
+	<ctime>
+
+1671378636 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2/Destrutor.cpp
+	"Destrutor.hpp"
+

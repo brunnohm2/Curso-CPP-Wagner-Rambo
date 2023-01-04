@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1671445080 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2ClasseEx/main.cpp
+	"ClasseEx.hpp"
+
+1671444518 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2ClasseEx/ClasseEx.hpp
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<cmath>
+	<cstdlib>
+	<ctime>
+
+1671444801 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula2ClasseEx/ClasseEx.cpp
+	"ClasseEx.hpp"
+

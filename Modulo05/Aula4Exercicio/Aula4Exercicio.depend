@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1672211783 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula4Exercicio/Area.cpp
+	"Area.hpp"
+
+1672211930 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula4Exercicio/Area.hpp
+	<iostream>
+	<cmath>
+
+1672211686 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula4Exercicio/main.cpp
+	"Area.hpp"
+

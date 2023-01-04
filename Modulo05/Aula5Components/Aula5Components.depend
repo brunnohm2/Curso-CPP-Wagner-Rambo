@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1672796383 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula5Components/Components.cpp
+	"Components.hpp"
+
+1672327086 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula5Components/main.cpp
+	"Components.hpp"
+
+1672314500 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula5Components/Components.hpp
+	<iostream>
+	<string>
+	<cstring>
+

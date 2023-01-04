@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1672108724 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Friend/main.cpp
+	"FriendsDemo.hpp"
+
+1672108598 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Friend/FriendsDemo.hpp
+	<iostream>
+
+1672108850 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Friend/FriendsDemo.cpp
+	"FriendsDemo.hpp"
+

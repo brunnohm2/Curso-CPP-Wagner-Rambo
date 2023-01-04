@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1672807796 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula1ClassesBasicasDerivadas2/sensCurrent.cpp
+	"sensCurrent.hpp"
+
+1672807069 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula1ClassesBasicasDerivadas2/sensCurrent.hpp
+	<iostream>
+	<string>
+	<iomanip>
+
+1672807573 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula1ClassesBasicasDerivadas2/main.cpp
+	"sensCurrent.hpp"
+

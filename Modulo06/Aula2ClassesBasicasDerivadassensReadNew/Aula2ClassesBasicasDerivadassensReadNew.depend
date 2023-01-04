@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1672811957 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadassensReadNew/sensVolt.cpp
+	"sensVolt.hpp"
+
+1672811628 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadassensReadNew/sensVolt.hpp
+	<iostream>
+	<string>
+	<iomanip>
+
+1672812619 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadassensReadNew/main.cpp
+	"sensCurrent.hpp"
+
+1672811443 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadassensReadNew/sensCurrent.hpp
+	<iostream>
+	<string>
+	<iomanip>
+	"sensVolt.hpp"
+
+1672812365 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadassensReadNew/sensCurrent.cpp
+	"sensCurrent.hpp"
+

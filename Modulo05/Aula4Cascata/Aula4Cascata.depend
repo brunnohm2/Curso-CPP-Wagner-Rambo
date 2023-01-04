@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1672207703 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula4Cascata/main.cpp
+	"Adjusts.hpp"
+
+1672207361 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula4Cascata/Adjusts.hpp
+	<iostream>
+	<iomanip>
+
+1672207437 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula4Cascata/Adjusts.cpp
+	"Adjusts.hpp"
+

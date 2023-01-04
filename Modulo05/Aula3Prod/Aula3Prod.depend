@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1672106843 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Prod/main.cpp
+	"ProdNames.hpp"
+
+1672105934 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Prod/ProdNames.hpp
+	"ProdPrice.hpp"
+
+1672106602 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Prod/ProdPrice.hpp
+	<iostream>
+
+1672106659 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Prod/ProdPrice.cpp
+	"ProdPrice.hpp"
+
+1672106708 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Prod/ProdNames.cpp
+	<cstring>
+	"ProdNames.hpp"
+

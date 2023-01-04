@@ -23,8 +23,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Bascara.hpp" />
-		<Unit filename="Baskara.cpp" />
+		<Unit filename="Bhaskara.cpp" />
+		<Unit filename="Bhaskara.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

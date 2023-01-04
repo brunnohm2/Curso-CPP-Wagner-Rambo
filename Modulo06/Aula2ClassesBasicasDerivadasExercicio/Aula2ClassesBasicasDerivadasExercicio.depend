@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1672819919 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadasExercicio/DadosPessoais.cpp
+	"DadosPessoais.hpp"
+
+1672819724 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadasExercicio/DadosPessoais.hpp
+	<iostream>
+	<string>
+
+1672820699 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadasExercicio/main.cpp
+	"Rg.hpp"
+
+1672820463 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadasExercicio/Rg.cpp
+	"Rg.hpp"
+
+1672820029 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula2ClassesBasicasDerivadasExercicio/Rg.hpp
+	"DadosPessoais.hpp"
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1672111745 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Exercicio/main.cpp
+	"CalcP.hpp"
+
+1672112238 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Exercicio/CalcP.hpp
+	<iostream>
+
+1672112144 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Exercicio/CalcP.cpp
+	"CalcP.hpp"
+

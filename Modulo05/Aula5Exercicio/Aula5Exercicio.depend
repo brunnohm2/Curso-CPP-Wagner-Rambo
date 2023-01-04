@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1672800714 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula5Exercicio/main.cpp
+	"LevelSensor.hpp"
+
+1672800842 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula5Exercicio/LevelSensor.hpp
+	<iostream>
+
+1672800756 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula5Exercicio/LevelSensor.cpp
+	"LevelSensor.hpp"
+

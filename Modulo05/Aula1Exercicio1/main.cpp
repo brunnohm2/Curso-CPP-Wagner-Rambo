@@ -16,9 +16,9 @@
 //========================================
 //----  Main Function
 int main(){
-    Bhaskara calc1( 1, -4,  3);
-    Bhaskara calc2(-2, -5, -2);
-    Bhaskara calc3( 4, -8, 12);
+    Bhaskara    calc1( 1, -4,  3),
+                calc2(-2, -5, -2),
+                calc3( 4, -8, 12);
 
     calc1.viewValues();
     calc2.viewValues();

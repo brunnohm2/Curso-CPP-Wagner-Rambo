@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1672110338 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Friend2/main.cpp
+	"Exemplo2.hpp"
+
+1672110474 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Friend2/Exemplo1.hpp
+	<cmath>
+
+1672110423 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Friend2/Exemplo2.hpp
+	<iostream>
+
+1672109737 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Friend2/Exemplo1.cpp
+	"Exemplo1.hpp"
+
+1672110159 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo05/Aula3Friend2/Exemplo2.cpp
+	"Exemplo1.hpp"
+	"Exemplo2.hpp"
+
