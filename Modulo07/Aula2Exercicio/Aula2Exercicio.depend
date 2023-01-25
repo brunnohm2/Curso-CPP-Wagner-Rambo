@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1673171468 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula2Exercicio/DeslocaArray.cpp
+
+1673170475 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula2Exercicio/main.cpp
+	"DeslocaArray.hpp"
+
+1673168403 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula2Exercicio/DeslocaArray.hpp
+	<iostream>
+	"DeslocaArray.cpp"
+
+1673171665 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula2Exercicio/DeslocaArray.cpp
+

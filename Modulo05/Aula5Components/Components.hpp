@@ -23,8 +23,8 @@ class Components
     public:
         Components(const char * const, const char * const);
         ~Components();
-        const char *getTypeComponent();
-        const char *getModelComponent();
+        const char *getTypeComponent()  const;
+        const char *getModelComponent() const;
 
         static int getComponentCount();
 

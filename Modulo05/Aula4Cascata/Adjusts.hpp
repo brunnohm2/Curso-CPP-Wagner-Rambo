@@ -15,13 +15,13 @@ using std::setw;            // Permite configurar a largura de um campo Ex.: set
 class Adjusts
 {
     public:
-        Adjusts(int=50, int=50, int=50);
-        ~Adjusts();
-        Adjusts &setAdjust(int, int, int);
-        Adjusts &setVolume(int);
-        Adjusts &setBrightness(int);
-        Adjusts &setContrast(int);
-        void displayParameter() const;
+        Adjusts                     (int volume=50, int brightness=50,  int contrast=50);
+        ~Adjusts                    ();
+        Adjusts &setAdjust          (int volume,    int brightness,     int contrast);
+        Adjusts &setVolume          (int volume);
+        Adjusts &setBrightness      (int brightness);
+        Adjusts &setContrast        (int contrast);
+        void    displayParameter    () const;
     private:
         int _volume;
         int _brightness;

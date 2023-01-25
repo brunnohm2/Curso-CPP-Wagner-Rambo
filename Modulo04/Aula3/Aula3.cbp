@@ -23,6 +23,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="cartas.cpp" />
+		<Unit filename="cartas.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

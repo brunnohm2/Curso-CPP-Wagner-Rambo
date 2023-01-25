@@ -23,10 +23,10 @@ class sensCurrent : public sensVolt // sensCurrent vai herdar sensVolt
         sensCurrent(const string &sensType, int valorADC, unsigned sensID, double Vref, double Res);
 
         void        setRes      (double Res);
-        double      getRes      ()                      const;
+        double      getRes      ()  const;
 
-        double      currentVal  ()                      const;
-        void        dispResults ()                      const;
+        double      currentVal  ()  const;
+        void        dispResults ()  const;
 
     private:
         double      _Res;

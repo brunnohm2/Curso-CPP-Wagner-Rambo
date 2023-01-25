@@ -10,67 +10,23 @@ _Vref       (Vref)
 {}
 
 //---- Destructor ----
-sensVolt::~sensVolt()
-{
-
-}
-
+sensVolt::~sensVolt(){}
 //----
-void sensVolt::setSensType (const string &sensType)
-{
-    _sensType = sensType;
-}
-
+void        sensVolt::setSensType   (const string &sensType)    {_sensType = sensType;}
+string      sensVolt::getSensType   ()const                     {return _sensType;}
 //----
-string sensVolt::getSensType ()const
-{
-    return _sensType;
-}
-
+void        sensVolt::setValorADC   (int valorADC)              {_valorADC = (valorADC >= 0 && valorADC < 1024) ? valorADC : 512;}
+int         sensVolt::getValorADC   ()const                     {return _valorADC;}
 //----
-void sensVolt::setValorADC (int valorADC)
-{
-    _valorADC = (valorADC >= 0 && valorADC < 1024) ? valorADC : 512;
-}
-
+void        sensVolt::setSensID     (unsigned sensID)           {_sensID = sensID;}
+unsigned    sensVolt::getSensID     ()const                     {return _sensID;}
 //----
-int sensVolt::getValorADC ()const
-{
-    return _valorADC;
-}
-
+void        sensVolt::setVref       (double Vref)               {_Vref = Vref;}
+double      sensVolt::getVref       ()const                     {return _Vref;}
 //----
-void sensVolt::setSensID (unsigned sensID)
-{
-    _sensID = sensID;
-}
-
+double      sensVolt::voltsVal      ()const                     {return getValorADC()*getVref()/static_cast<double>(1024);}
 //----
-unsigned sensVolt::getSensID ()const
-{
-    return _sensID;
-}
-
-//----
-void sensVolt::setVref (double Vref)
-{
-    _Vref = Vref;
-}
-
-//----
-double sensVolt::getVref ()const
-{
-    return _Vref;
-}
-
-//----
-double sensVolt::voltsVal ()const
-{
-    return getValorADC()*getVref()/static_cast<double>(1024);
-}
-
-//----
-void sensVolt::dispResults ()const
+void        sensVolt::dispResults   ()const
 {
     cout<<"\nTipo do Sensor = "<<getSensType()
         <<"\nValor do ADC   = "<<getValorADC()

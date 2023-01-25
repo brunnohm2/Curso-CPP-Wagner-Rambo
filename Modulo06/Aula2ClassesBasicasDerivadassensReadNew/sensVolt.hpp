@@ -23,16 +23,16 @@ class sensVolt
         ~sensVolt();
 
         void        setSensType (const string &);
-        string      getSensType ()          const;
+        string      getSensType ()  const;
         void        setValorADC (int);
-        int         getValorADC ()          const;
+        int         getValorADC ()  const;
         void        setSensID   (unsigned);
-        unsigned    getSensID   ()          const;
+        unsigned    getSensID   ()  const;
         void        setVref     (double);
-        double      getVref     ()          const;
+        double      getVref     ()  const;
 
-        double      voltsVal    ()          const;
-        void        dispResults ()          const;
+        double      voltsVal    ()  const;
+        void        dispResults ()  const;
 
     private:
         string      _sensType;

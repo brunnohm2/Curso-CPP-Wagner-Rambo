@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1673180582 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3Exercicio/main.cpp
+	"Pot.hpp"
+
+1673180005 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3Exercicio/Pot.hpp
+	<iostream>
+	<cmath>
+
+1673180150 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3Exercicio/Pot.cpp
+	"Pot.hpp"
+
+1673185858 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3SobrecargaDeOperadoresPotencia/main.cpp
+	"Pot.hpp"
+
+1673180005 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3SobrecargaDeOperadoresPotencia/Pot.hpp
+	<iostream>
+	<cmath>
+
+1673185844 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3SobrecargaDeOperadoresPotencia/Pot.cpp
+	"Pot.hpp"
+

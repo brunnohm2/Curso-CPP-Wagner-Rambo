@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1672992679 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/CursoAfiliado.cpp
+	"CursoAfiliado.hpp"
+
+1672911406 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/CursoAfiliado.hpp
+	"Cursos.hpp"
+
+1672914990 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/Cursos.hpp
+	<string>
+	<iostream>
+
+1672992717 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/CursoCoproduzido.cpp
+	"CursoCoproduzido.hpp"
+
+1672913154 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/CursoCoproduzido.hpp
+	"CursoAfiliado.hpp"
+
+1672992657 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/CursoProprio.cpp
+	"CursoProprio.hpp"
+
+1672910585 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/CursoProprio.hpp
+	"Cursos.hpp"
+
+1672992634 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/Cursos.cpp
+	"Cursos.hpp"
+
+1672993765 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/main.cpp
+	<iostream>
+	<iomanip>
+	"Cursos.hpp"
+	"CursoProprio.hpp"
+	"CursoAfiliado.hpp"
+	"CursoCoproduzido.hpp"
+	"CursoAssinatura.hpp"
+
+1673141218 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/CursoAssinatura..cpp
+	"CursoAssinatura.hpp"
+
+1672991160 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5Exercicio/CursoAssinatura.hpp
+	"Cursos.hpp"
+

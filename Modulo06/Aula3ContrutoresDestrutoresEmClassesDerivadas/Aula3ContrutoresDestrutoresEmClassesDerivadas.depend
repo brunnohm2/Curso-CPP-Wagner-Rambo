@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1672884633 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula3ContrutoresDestrutoresEmClassesDerivadas/main.cpp
+	"sensCurrent.hpp"
+
+1672884715 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula3ContrutoresDestrutoresEmClassesDerivadas/sensVolt.cpp
+	"sensVolt.hpp"
+
+1672811628 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula3ContrutoresDestrutoresEmClassesDerivadas/sensVolt.hpp
+	<iostream>
+	<string>
+	<iomanip>
+
+1672884655 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula3ContrutoresDestrutoresEmClassesDerivadas/sensCurrent.cpp
+	"sensCurrent.hpp"
+
+1672883543 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula3ContrutoresDestrutoresEmClassesDerivadas/sensCurrent.hpp
+	<iostream>
+	<string>
+	<iomanip>
+	"sensVolt.hpp"
+

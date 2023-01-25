@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1672985695 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/CursoAfiliado.cpp
+	"CursoAfiliado.hpp"
+
+1672985673 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/CursoCoproduzido.cpp
+	"CursoCoproduzido.hpp"
+
+1672985820 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/CursoProprio.cpp
+	"CursoProprio.hpp"
+
+1672914936 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/Cursos.cpp
+	"Cursos.hpp"
+
+1672914990 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/Cursos.hpp
+	<string>
+	<iostream>
+
+1672985802 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/main.cpp
+	<iostream>
+	<iomanip>
+	"Cursos.hpp"
+	"CursoProprio.hpp"
+	"CursoAfiliado.hpp"
+	"CursoCoproduzido.hpp"
+
+1672910585 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/CursoProprio.hpp
+	"Cursos.hpp"
+
+1672911406 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/CursoAfiliado.hpp
+	"Cursos.hpp"
+
+1672913154 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula5ProjetoUtilizandoPolimorfismo/CursoCoproduzido.hpp
+	"CursoAfiliado.hpp"
+

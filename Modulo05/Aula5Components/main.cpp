@@ -24,27 +24,27 @@ int main()
     printMessage("Antes dos objetos serem criados Contador de Componentes = ");
     cout<<Components::getComponentCount()<<endl;
 
-    Components *component1 = new Components("TBJ", "TIP42");
-    Components *component2 = new Components("MOSFET", "IRF3205");
-    Components *component3 = new Components("Integrated Circuit", "SG3525A");
+    Components *component1 = new Components("TBJ",                  "TIP42");
+    Components *component2 = new Components("MOSFET",               "IRF3205");
+    Components *component3 = new Components("Integrated Circuit",   "SG3525A");
 
     printMessage("Depois dos objetos serem criados Contador de Componentes = ");
     cout<<Components::getComponentCount()<<endl;
 
-    printMessage("Componente 1: ");
+    printMessage("Componente 1:    ");
     cout<<component1->getTypeComponent()<<' '<<component1->getModelComponent()<<endl;
 
-    printMessage("Componente 2: ");
+    printMessage("Componente 2:    ");
     cout<<component2->getTypeComponent()<<' '<<component2->getModelComponent()<<endl;
 
-    printMessage("Componente 3: ");
+    printMessage("Componente 3:    ");
     cout<<component3->getTypeComponent()<<' '<<component3->getModelComponent()<<endl;
 
-    delete component1;
+    delete  component1;
     component1 = 0; // desconecta o ponteiro do espaco de armazenamento livre
-    delete component2;
+    delete  component2;
     component2 = 0; // desconecta o ponteiro do espaco de armazenamento livre
-    delete component3;
+    delete  component3;
     component3 = 0; // desconecta o ponteiro do espaco de armazenamento livre
 
     printMessage("Depois dos objetos serem deletados Contador de Componentes = ");

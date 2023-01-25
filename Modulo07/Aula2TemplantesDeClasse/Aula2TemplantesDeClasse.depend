@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1673067157 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula2TemplantesDeClasse/main.cpp
+	"Memoria.hpp"
+
+1673142057 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula2TemplantesDeClasse/Memoria.cpp
+
+1673088042 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula2TemplantesDeClasse/Memoria.hpp
+	<iostream>
+	"Memoria.cpp"
+
+1673142057 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula2TemplantesDeClasse/Memoria.cpp
+

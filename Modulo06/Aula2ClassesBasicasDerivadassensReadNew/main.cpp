@@ -3,7 +3,7 @@
 // Teacher: Wagner Rambo
 // Student: Brunno Hiroshy Murai
 // Module:  6
-// Lesson:  1 Classes Básicas e Derivadas Current
+// Lesson:  2 Classes Básicas e Derivadas Current
 // Date:    2023-01-04
 // IDE:     Code::Blocks
 // File:    main.cpp

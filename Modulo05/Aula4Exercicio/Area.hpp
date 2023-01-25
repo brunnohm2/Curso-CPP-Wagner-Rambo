@@ -14,19 +14,19 @@ using std::pow;             // Calcula a potencia de um numero Ex.: pow(3, 4) 3 
 class Area
 {
     public:
-        Area();
-        ~Area();
-        Area &setCircumference(double);
-        Area &setRectangle(double, double);
-        void calcAreaCR();
-        void printValues();
+        Area                        ();
+        ~Area                       ();
+        Area    &setCircumference   (double);
+        Area    &setRectangle       (double, double);
+        void    calcAreaCR          ();
+        void    printValues         ();
     private:
-        double _radiusCircumference;
-        double _lengthRectangle;
-        double _breadthRectangle;
-        double _areaCircumference;
-        double _areaRectangle;
-        double _areaCR;
+        double  _radiusCircumference;
+        double  _lengthRectangle;
+        double  _breadthRectangle;
+        double  _areaCircumference;
+        double  _areaRectangle;
+        double  _areaCR;
 };
 #endif
 

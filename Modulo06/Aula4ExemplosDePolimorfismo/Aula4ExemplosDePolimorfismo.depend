@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1672894836 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula4ExemplosDePolimorfismo/sensCurrent.cpp
+	"sensCurrent.hpp"
+
+1672894565 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula4ExemplosDePolimorfismo/sensCurrent.hpp
+	<iostream>
+	<string>
+	<iomanip>
+	"sensVolt.hpp"
+
+1672899689 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula4ExemplosDePolimorfismo/sensVolt.hpp
+	<iostream>
+	<string>
+	<iomanip>
+
+1672894842 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula4ExemplosDePolimorfismo/sensVolt.cpp
+	"sensVolt.hpp"
+
+1672894177 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo06/Aula4ExemplosDePolimorfismo/main.cpp
+	"sensVolt.hpp"
+	"sensCurrent.hpp"
+

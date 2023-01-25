@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1674646208 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula4SobrecargaObjetosStrings/main.cpp
+	<iostream>
+	"String.hpp"
+
+1674642550 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula4SobrecargaObjetosStrings/String.hpp
+	<iostream>
+
+1674646067 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula4SobrecargaObjetosStrings/String.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"String.hpp"
+
