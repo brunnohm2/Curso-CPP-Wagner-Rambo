@@ -17,7 +17,12 @@
 //----  Main Function
 int main()
 {
-    sensVolt sensor("Voltage", 267, 1, 5.0);
+    const char  VOLTAGE_NAME[]  = {"Voltage"};
+    const int   VOLTAGE_ADC     = 267;
+    const int   VOLTEGE_ID      = 1;
+    const float VOLTAGE_VREF    = 5.0;
+
+    sensVolt sensor(VOLTAGE_NAME, VOLTAGE_ADC, VOLTEGE_ID, VOLTAGE_VREF);
     cout << fixed << setprecision (4);
 
     cout << "Configuracoes iniciais: "<<endl;

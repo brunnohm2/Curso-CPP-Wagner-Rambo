@@ -31,7 +31,5 @@ int main()
 
   cout << s4 << endl;
 
-
-  cout << "\n\nFim." << endl;
   return 0;
 }

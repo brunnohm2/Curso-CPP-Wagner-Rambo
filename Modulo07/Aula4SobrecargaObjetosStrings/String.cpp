@@ -17,19 +17,20 @@ using std::strcpy;
 using std::strcat;
 
 #include "String.hpp"
-String::String(const char *stringg):
-    _length((stringg!=0)?strlen(stringg):0)
-        {setString(stringg);}
+String::String(const char *caracteres):
+    _length((caracteres!=0) ? strlen(caracteres) : 0)
 
-String::~String()   {delete [] _sPtr;}
+    {setString(caracteres);}
+
+String::~String()   {delete [] _stringPtr;}
 
 const   String &String::operator    =   (const String &right)
 {
     if(&right!=this)
     {
-        delete[]        _sPtr;
+        delete[]        _stringPtr;
         _length     =   right._length;
-        setString(right._sPtr);
+        setString(right._stringPtr);
     }else cout << "ocorreu uma tentativa de inicializar a propria string";
 
     return *this;
@@ -39,18 +40,19 @@ const String &String::operator+=(const String &right)
     size_t  newLength   = _length + right._length;  //novo comprimento
     char    *tempPtr    = new char[newLength+1];    //aloca memória
 
-    strcpy(tempPtr, _sPtr);                         //copia sPtr
-    strcpy(tempPtr + _length, right._sPtr);         //copia right.sPtr
+    strcpy(tempPtr, _stringPtr);                    //copia sPtr
+    strcpy(tempPtr + _length, right._stringPtr);    //copia right.sPtr
 
-    delete []   _sPtr;                              //libera espaço
-    _sPtr   =   tempPtr;                            //atribui novo array a sPtr
-    _length =   newLength;                          //atribui novo comprimento a length
+
+    delete []   _stringPtr;                         //libera espaço
+    _stringPtr  =   tempPtr;                        //atribui novo array a sPtr
+    _length     =   newLength;                      //atribui novo comprimento a length
 
     return *this;                                   //permite chamadas em cascata
 }
 
-bool    String::operator    ==  (const String &right)   const{return strcmp(_sPtr, right._sPtr)==0;}
-bool    String::operator    <   (const String &right)   const{return strcmp(_sPtr, right._sPtr)< 0;}
+bool    String::operator    ==  (const String &right)   const{return strcmp(_stringPtr, right._stringPtr)==0;}
+bool    String::operator    <   (const String &right)   const{return strcmp(_stringPtr, right._stringPtr)< 0;}
 bool    String::operator    !=  (const String &right)   const{return !(*this == right);}
 bool    String::operator    >   (const String &right)   const{return right < *this;}
 bool    String::operator    <=  (const String &right)   const{return !(right < *this);}
@@ -59,20 +61,20 @@ bool    String::operator    >=  (const String &right)   const{return !(*this < r
 int     String::getLength       ()                      const{return _length;};
 
 
-void String::setString(const char *string2)
+void String::setString(const char *caracteres)
 {
-    _sPtr = new char [_length+1]; //aloca memória
+    _stringPtr = new char [_length+1];  //aloca memória
 
-    if(string2 != 0)  //se a string2 não for um ponteiro nulo, copia o conteúdo
-        strcpy(_sPtr, string2);
-    else              //senão, torna essa string vazia
-        _sPtr[0] = '\0';
+    if(caracteres != 0)                 //se a string2 não for um ponteiro nulo, copia o conteúdo
+        strcpy(_stringPtr, caracteres);
+    else                                //senão, torna essa string vazia
+        _stringPtr[0] = '\0';
 }
 // ==============================================
 // --- Operador de saída sobrecarregado ---
 ostream &operator<<(ostream &output, const String &s)
 {
-  output << s._sPtr;
+  output << s._stringPtr;
   return output;  //permite cascateamento
 
 }

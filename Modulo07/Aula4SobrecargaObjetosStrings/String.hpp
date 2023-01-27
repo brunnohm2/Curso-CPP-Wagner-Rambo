@@ -14,7 +14,7 @@ class String
     friend istream &operator>>(istream &, String &);
 
     public:
-        String(const char *stringg = "");
+        String(const char *caracteres = "");
         ~String();
 
         const String &operator = (const String &);
@@ -31,8 +31,8 @@ class String
 
     private:
         unsigned int     _length;
-        char            *_sPtr;
-        void            setString(const char *string2);
+        char            *_stringPtr;
+        void            setString(const char *caracteres);
 
 };
 #endif

@@ -19,7 +19,7 @@ using std::setprecision;    // Precisao para saida numerica Ex.: setprecision(2)
 class sensVolt
 {
     public:
-        sensVolt(const string &, int, unsigned, double);
+        sensVolt(const string &sensType, int valorADC, unsigned sensID, double Vref);
         ~sensVolt();
 
         void        setSensType (const string &);
