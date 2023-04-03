@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1675057560 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2Manip/main.cpp
+	"Manip.hpp"
+
+1675057847 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2Manip/Manip.hpp
+	<iostream>
+	<iomanip>
+
+1675057876 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2Manip/Manip.cpp
+	"Manip.hpp"
+

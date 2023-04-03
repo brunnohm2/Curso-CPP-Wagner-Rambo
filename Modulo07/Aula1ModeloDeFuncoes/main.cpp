@@ -25,10 +25,10 @@ void criptografaArray(newType *myArray, int arraySize);
 //----  Main Function
 int main()
 {
-    const int   arraySize       = 5;
-    int         a1[arraySize]   = {1,   2,   3,   4,   5  };
-    double      a2[arraySize]   = {1.1, 2.2, 3.3, 4.4, 5.5};
-    char        a3[arraySize]   = {'A', 'B', 'C', 'D', 'E'};
+    const int   arraySize       =   5;
+    int         a1[arraySize]   =   {1,   2,   3,   4,   5  };
+    double      a2[arraySize]   =   {1.1, 2.2, 3.3, 4.4, 5.5};
+    char        a3[arraySize]   =   {'A', 'B', 'C', 'D', 'E'};
 
     criptografaArray(a1, arraySize);
     criptografaArray(a2, arraySize);

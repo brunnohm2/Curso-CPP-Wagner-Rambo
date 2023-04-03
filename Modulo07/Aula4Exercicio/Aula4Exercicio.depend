@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1674894608 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula4Exercicio/main.cpp
+	<iostream>
+	"String.hpp"
+
+1674894036 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula4Exercicio/String.hpp
+	<iostream>
+
+1674894532 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula4Exercicio/String.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"String.hpp"
+

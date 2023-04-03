@@ -10,14 +10,14 @@ using std::endl;
 template <typename myType, unsigned short N>
 class Memoria
 {
-    public:
-        Memoria();
+  public:
+    Memoria();
 
-        void    gravaDados();
-        void    imprimeDados();
+    void    gravaDados();
+    void    imprimeDados();
 
-    private:
-        myType  memoArray[N];    //Memoria disponivel para o usuario
+  private:
+    myType  memoArray[N];    //Memoria disponivel para o usuario
 };
 
 #include "Memoria.cpp"

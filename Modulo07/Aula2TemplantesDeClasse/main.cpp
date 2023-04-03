@@ -17,8 +17,8 @@
 //----  Main Function
 int main()
 {
-    Memoria <uint16_t, 6> m1;
-    m1.gravaDados();
-    m1.imprimeDados();
-    return 0;
+  Memoria <uint16_t, 6> m1;
+  m1.gravaDados();
+  m1.imprimeDados();
+  return 0;
 }

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1674896743 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula5ObjetosArray/main.cpp
+	<iostream>
+	"Array.hpp"
+
+1663129482 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula5ObjetosArray/Array.hpp
+	<iostream>
+
+1674896943 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula5ObjetosArray/Array.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"Array.hpp"
+
