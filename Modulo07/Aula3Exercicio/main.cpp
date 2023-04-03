@@ -17,11 +17,11 @@
 //----  Main Function
 int main()
 {
-    ProdEscalar p1(9,7,4), p2;
-    int k = 10;
+  ProdEscalar p1(9,7,4), p2;
+  int k = 10;
 
-    p2 = p1*k;
-    p2.printResult();
-    while(1);
-    return 0;
+  p2 = p1*k;
+  p2.printResult();
+  while(1);
+  return 0;
 }

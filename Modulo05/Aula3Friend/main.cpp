@@ -17,9 +17,9 @@
 //----  Main Function
 int main()
 {
-    FriendsDemo CI555;
-    calcFreq(CI555,1.5E3,10.0E3,220.0E-9);
-    CI555.result();
-    return 0;
+  FriendsDemo CI555;
+  calcFreq(CI555,1.5E3,10.0E3,220.0E-9);
+  CI555.result();
+  return 0;
 }
 

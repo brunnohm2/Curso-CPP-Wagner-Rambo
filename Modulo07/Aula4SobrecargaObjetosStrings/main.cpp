@@ -8,14 +8,15 @@
 // IDE:     Code::Blocks
 // File:    main.cpp
 //
+
+//========================================
+//----  Library
 #include <iostream>
 using std::cin;
 using std::cout;
 using std::endl;
-//========================================
-//----  Library
-#include "String.hpp"
 
+#include "String.hpp"
 
 //========================================
 //----  Main Function

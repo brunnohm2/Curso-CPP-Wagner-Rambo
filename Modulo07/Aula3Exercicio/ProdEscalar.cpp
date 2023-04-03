@@ -19,13 +19,13 @@ ProdEscalar ProdEscalar::operator*(int prod)
 }
 
 //---- getA
-int   ProdEscalar::getA()const  {return _a;}
+int ProdEscalar::getA()const  {return _a;}
 
 //---- getA
-int   ProdEscalar::getB()const  {return _b;}
+int ProdEscalar::getB()const  {return _b;}
 
 //---- getA
-int   ProdEscalar::getC()const  {return _c;}
+int ProdEscalar::getC()const  {return _c;}
 
 //---- printResult
 void  ProdEscalar::printResult()const
