@@ -1,9 +1,27 @@
+#include "Config.hpp"
+
 //========================================
 //---- Class Development (Member-Function)
-#include "Config.hpp"
+
+//---- Construtor
 Config::Config(int val):
 _val(val)
 {}
-void    Config::operator=   (int newVal)    {_val = newVal;}
-int     Config::getVal()    const           {return _val;}
-void    Config::printVal()  const           {cout<<"\nVal = "<<getVal()<<endl;}
+
+//---- Sobrecarga de oparador =
+void Config::operator=(int newVal)
+{
+  _val = newVal;
+}
+
+//---- getVal
+int Config::getVal()const
+{
+  return _val;
+}
+
+//---- printVal
+void Config::printVal()const
+{
+  cout<<"\nVal = "<<getVal()<<endl;
+}

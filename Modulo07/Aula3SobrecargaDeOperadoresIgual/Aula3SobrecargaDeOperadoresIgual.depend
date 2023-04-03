@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1673181330 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3SobrecargaDeOperadoresIgual/main.cpp
+1673182275 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3SobrecargaDeOperadoresIgual/main.cpp
 	"Config.hpp"
 
-1673181670 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3SobrecargaDeOperadoresIgual/Config.hpp
+1680500994 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3SobrecargaDeOperadoresIgual/Config.hpp
 	<iostream>
 
 1673182062 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo07/Aula3SobrecargaDeOperadoresIgual/Config.cpp
