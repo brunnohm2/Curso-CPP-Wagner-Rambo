@@ -85,12 +85,12 @@ int main()
 
 //---- Exemplo
 
-//    const int SIZE_BUF = 50;
-//    char buffer[SIZE_BUF];
-//
-//    cout<<"Digite uma frase: ";
-//    cin.read(buffer, SIZE_BUF);         //só encerra a leitura quando completar 10 chrs
-//    cout.write(buffer, cin.gcount());   //imprime o conteúdo
+    const int SIZE_BUF = 50;
+    char buffer[SIZE_BUF];
+
+    cout<<"Digite uma frase: ";
+    cin.read(buffer, SIZE_BUF);         //só encerra a leitura quando completar 10 chrs
+    cout.write(buffer, cin.gcount());   //imprime o conteúdo
 
     return 0;
 }

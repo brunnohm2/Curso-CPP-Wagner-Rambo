@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1681111081 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2ManipuladoresDeFluxo/main.cpp
+	<iostream>
+	<iomanip>
+

@@ -17,11 +17,15 @@
 //----  Main Function
 int main()
 {
-    cout<< "4 espacos" << espace4
-    << "8 espacos"<< espace8
-    << "Sinal de alerta " << alert
-    << "\nDuas linhas" << twoLines
-    << "Fim"
-    <<endl;
+    cout<< espace4;
+    cout<< "Teste";
+    cout<< twoLines;
+    cout<< espace8;
+    cout<< "Teste";
+    cout<< twoLines;
+    cout<< alert;
+
+    cout<< "\n\nFim" << endl;
+
     return 0;
 }

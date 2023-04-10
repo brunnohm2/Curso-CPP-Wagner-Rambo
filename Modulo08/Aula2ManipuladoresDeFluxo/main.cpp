@@ -64,7 +64,7 @@ int main()
 //    cout<<"numero = "<<numero<<"\n"<<endl;
 
 
-//----  Exemplo 2 usando iomanip setbase
+////----  Exemplo 2 usando iomanip setbase
 //    int numero = 25;
 //
 //    cout<<setbase(16)<<"Saida hexdecimal"<<endl;
@@ -92,8 +92,8 @@ int main()
 //    numero = 15;
 //    cout<<"numero = "<<numero<<"\n"<<endl;
 
-//========================================
-//----  PRECISÃO DE PONTO FLUTUANTE
+////========================================
+////----  PRECISÃO DE PONTO FLUTUANTE
 //    double val = 1.45645645645644;
 //    cout << fixed;                          //utiliza notação de ponto fixo
 //    cout << setprecision(4) << val << endl; //imprime com 4 casas de precisão
@@ -103,8 +103,8 @@ int main()
 
 //========================================
 //----  LARGURA DE CAMPO
-//    int teste = 123;
-//    cout << setw(7) << teste << endl; //imprime com largura de campo igual a 7
+    int teste = 123;
+    cout << setw(7) << teste << endl; //imprime com largura de campo igual a 7
 
     return 0;
 }

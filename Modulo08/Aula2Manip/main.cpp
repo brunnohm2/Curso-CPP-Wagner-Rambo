@@ -17,6 +17,6 @@
 //----  Main Function
 int main()
 {
-    cout<< "A1" << underscore << tabulacao << "A2" << underscore << tabulacao << "A3" <<underscore<< endl;
-    return 0;
+  cout<< "A1" << underscore << tabulacao << "A2" << underscore << tabulacao << "A3" <<underscore<< endl;
+  return 0;
 }

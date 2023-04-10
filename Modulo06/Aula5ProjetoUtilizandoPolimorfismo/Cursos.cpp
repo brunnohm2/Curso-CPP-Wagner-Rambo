@@ -15,4 +15,7 @@ string  Cursos::getNomeCurso    ()  const               {return nomeCurso;}
 void    Cursos::setNomeEmpresa  (const string &empresa) {nomeEmpresa = empresa;}
 string  Cursos::getNomeEmpresa  ()  const               {return nomeEmpresa;}
 
-void    Cursos::mostraValores   ()  const               {cout<<getNomeCurso()<<" da empresa "<<getNomeEmpresa();}
+void    Cursos::mostraValores   ()  const
+{
+  cout<<getNomeCurso()<<" da empresa "<<getNomeEmpresa();
+}

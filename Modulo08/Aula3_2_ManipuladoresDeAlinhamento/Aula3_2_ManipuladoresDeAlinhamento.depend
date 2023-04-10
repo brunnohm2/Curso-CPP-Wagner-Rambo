@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1681114790 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula3_2_ManipuladoresDeAlinhamento/main.cpp
+	<iostream>
+	<iomanip>
+

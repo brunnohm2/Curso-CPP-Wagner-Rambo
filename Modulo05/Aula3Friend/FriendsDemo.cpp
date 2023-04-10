@@ -17,7 +17,7 @@ void FriendsDemo::result()
   cout<<" 555 freq = "<<f<<" Hz "<< endl;
 }
 
-//---- Fun Friend calcFreq
+//---- Funcao Friend calcFreq
 void calcFreq(FriendsDemo &ne555, double Ra, double Rb, double C)
 {
   ne555.f = 1.44/((Ra+2*Rb)*C);

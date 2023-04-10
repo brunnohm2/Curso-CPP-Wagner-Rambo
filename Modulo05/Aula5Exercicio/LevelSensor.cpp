@@ -7,22 +7,18 @@ int LevelSensor::_levelSensor = 0;
 
 LevelSensor::LevelSensor(int idSensor):
 _idSensor (idSensor)
-{
+{}
 
-}
-LevelSensor::~LevelSensor()
-{
+LevelSensor::~LevelSensor(){}
 
-}
-void LevelSensor::setLevelSensor(int newLevel)
-{
-    _levelSensor = newLevel;
-}
+void LevelSensor::setLevelSensor(int newLevel){_levelSensor = newLevel;}
+
 void LevelSensor::messageSensor()
 {
     getSensorID();
     statusSensor();
 }
+
 void LevelSensor::statusSensor()
 {
     cout<<"Nível da água ";

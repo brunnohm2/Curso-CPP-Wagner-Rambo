@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1681116117 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula3_4_ManipuladoresDePreenchimento/main.cpp
+	<iostream>
+	<iomanip>
+

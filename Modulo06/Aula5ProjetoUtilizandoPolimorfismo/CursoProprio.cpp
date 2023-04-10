@@ -11,9 +11,13 @@ void    CursoProprio::setValorCurso   (double valor){valorCurso = (valor<0.0)?0.
 double  CursoProprio::getValorCurso   ()const       {return valorCurso;}
 
 double  CursoProprio::calculaLucro    ()  const     {return getValorCurso();}
+
+
+
+
 void    CursoProprio::mostraValores   ()  const
 {
-    cout<<"\n                    Curso: ";
-    Cursos::mostraValores(); //Reutiliza a funcao monstraValores da classe basica abstrata
-    cout<<"\n         Valor do curso $: "<<getValorCurso();
+  cout<<"\n                    Curso: ";
+  Cursos::mostraValores(); //Reutiliza a funcao monstraValores da classe basica abstrata
+  cout<<"\n         Valor do curso $: "<<getValorCurso();
 }

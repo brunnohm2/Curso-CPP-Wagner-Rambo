@@ -7,13 +7,13 @@ using std::strncpy;
 #include "ProdNames.hpp"
 //========================================
 //---- Class Development (Member-Function)
-ProdNames::ProdNames(const char * const prodName1, const ProdPrice &vall):
-price1 (vall)
+ProdNames::ProdNames(const char * const prodName, const ProdPrice &val1):
+price1 (val1)
 {
     int length;
-    length              = strlen(prodName1);
+    length              = strlen(prodName);
     length              = (length<20 ? length : 19);
-    strncpy(product1, prodName1, length);
+    strncpy(product1, prodName, length);
     product1 [length]   = '\0';
 }
 ProdNames::~ProdNames()

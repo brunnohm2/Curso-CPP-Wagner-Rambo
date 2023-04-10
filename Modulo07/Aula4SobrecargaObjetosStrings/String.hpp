@@ -22,10 +22,10 @@ class String
 
     bool  operator  ==  (const String &) const;
     bool  operator  <   (const String &) const;
-    bool  operator  !=  (const String &) const;
     bool  operator  >   (const String &) const;
     bool  operator  <=  (const String &) const;
     bool  operator  >=  (const String &) const;
+    bool  operator  !=  (const String &) const;
 
     int getLength() const;
 

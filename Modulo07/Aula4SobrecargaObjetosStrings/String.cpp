@@ -18,6 +18,29 @@ using std::strcat;
 
 #include "String.hpp"
 
+//========================================
+//---- Funcoes Friends
+
+// --- Operador de saída sobrecarregado ---
+ostream &operator<<(ostream &output, const String &s)
+{
+  output << s._stringPtr;
+  return output;  //permite cascateamento
+}
+
+// --- Operador de entrada sobrecarregado ---
+istream &operator>>(istream &input, String &s)
+{
+  char temp[100];  //buffer para armazenar entrada
+  input >> setw(100) >> temp;
+  s = temp; //utiliza operador de atribuição da classe String
+  return input; //permite cascateamento
+}
+
+//========================================
+//---- Public                            =
+//========================================
+
 //---- Construtor
 String::String(const char *caracteres):
 _length((caracteres!=0) ? strlen(caracteres) : 0)
@@ -68,18 +91,22 @@ bool  String::operator  <   (const String &right) const{return strcmp(_stringPtr
 //----  Sobrecarga do operador >
 bool  String::operator  >   (const String &right) const{return right < *this;}
 
-//----  Sobrecarga do operador !=
-bool  String::operator  !=  (const String &right) const{return !(*this == right);}
-
 //----  Sobrecarga do operador <=
 bool  String::operator  <=  (const String &right) const{return !(right < *this);}
 
-//----  Sobrecargado operador
+//----  Sobrecargado operador >=
 bool  String::operator  >=  (const String &right) const{return !(*this < right);}
+
+//----  Sobrecarga do operador !=
+bool  String::operator  !=  (const String &right) const{return !(*this == right);}
 
 
 //----  Funcao getLength
 int String::getLength() const{return _length;};
+
+//========================================
+//----  Private                          =
+//========================================
 
 //----  Funcao setString
 void String::setString(const char *caracteres)
@@ -92,21 +119,4 @@ void String::setString(const char *caracteres)
     _stringPtr[0] = '\0';
 }
 
-// ==============================================
-// --- Operador de saída sobrecarregado ---
-ostream &operator<<(ostream &output, const String &s)
-{
-  output << s._stringPtr;
-  return output;  //permite cascateamento
-}
-
-// ==============================================
-// --- Operador de entrada sobrecarregado ---
-istream &operator>>(istream &input, String &s)
-{
-  char temp[100];  //buffer para armazenar entrada
-  input >> setw(100) >> temp;
-  s = temp; //utiliza operador de atribuição da classe String
-  return input; //permite cascateamento
-}
 

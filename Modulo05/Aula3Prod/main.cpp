@@ -17,7 +17,7 @@
 int main(){
     ProdPrice prod1(55);
     ProdPrice prod2(10);
-    ProdNames productName1("Transistor 55", prod1);
+    ProdNames productName1("12345678901234567890", prod1);
     ProdNames productName2("Resistor", prod2);
 
     productName1.results();

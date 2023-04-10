@@ -17,8 +17,8 @@
 //----  Main Function
 int main()
 {
-    CalcP PowerSupply;
-    potVal(PowerSupply, 12,4);
-    PowerSupply.printP();
+    CalcP PowerSupplyy;
+    potVal(PowerSupplyy, 12,4);
+    PowerSupplyy.printP();
     return 0;
 }

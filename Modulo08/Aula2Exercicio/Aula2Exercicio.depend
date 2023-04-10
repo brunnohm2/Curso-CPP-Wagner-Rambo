@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1675059385 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2Exercicio/main.cpp
+1681113131 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2Exercicio/main.cpp
 	"PacoteManipuladores.hpp"
 
 1675058669 /home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2Exercicio/PacoteManipuladores.hpp
 	<iostream>
 
-1675059173 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2Exercicio/PacoteManipuladores.cpp
+1681112889 source:/home/brunnohm/Documentos/GitHub/Curso-CPP-Wagner-Rambo/Modulo08/Aula2Exercicio/PacoteManipuladores.cpp
 	"PacoteManipuladores.hpp"
 
